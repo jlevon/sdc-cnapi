@@ -371,6 +371,7 @@ function testUpdateServerOverprovisionRatios(t) {
 //  * ensure that the boot time was updated in the server object
 //  * DELETE the server
 //
+// FIXME: test jlevon
 function testServerSysinfo(t) {
     // Taken from a Joyent Lab system, modified only to set UUID randomly and
     // to transpose characters in the hostname and serial number in case this
