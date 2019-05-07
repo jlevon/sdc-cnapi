@@ -10,7 +10,7 @@
     "async": "1.5.2",
     "backoff": "2.5.0",
     "bunyan": "1.8.5",
-    "dapi": "git+https://github.com/joyent/sdc-designation.git#cc4a8ebc87494b18d7dee17d13771dc5170a287c",
+    "dapi": "git+https://github.com/joyent/sdc-designation.git#18117e9395bf7ae410d445bca1a7a32690d99320",
     "deep-object-diff": "1.1.0",
     "dox": "0.9.0",
     "gc-stats": "1.2.0",
