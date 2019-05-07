@@ -94,7 +94,7 @@ specialized circumstances in production.
 | **ALLOC_WEIGHT_UNRESERVED_RAM**    | Float | 2.0   | Bias selection towards CNs with more unreserved memory.                      |
 | **FEATURE_USE_CNAGENT_COMMAND_EXECUTE** | Boolean | false | Experimental: Use cn-agent's command_execute function instead of Ur when available. |
 | **FEATURE_ENABLE_VIRTUAL_SERVERS_FILTER** | Boolean | false | Whether to enable the virtual server filtering. When enabled, during DAPI allocation, all virtual servers (e.g. mockcloud servers) will be filtered out if the vm is a docker vm, or the vm has the `triton.placement.exclude_virtual_servers` tag set to true. This virtual server filtering is needed for Triton testing, but should not be enabled for production environments. |
-| **HT_ENABLED_DEFAULT**	| Boolean | false | The default hyper-threading mode for newly-installed CNs. |
+| **SMT_ENABLED_DEFAULT**	| Boolean | false | The default simultaneous multi-threading mode for newly-installed CNs. |
 
 If any of the keys above aren't in the `sdc` `metadata` section, it's treated as
 if the default value was specified. Be careful when changing from the default
