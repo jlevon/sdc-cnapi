@@ -44,7 +44,7 @@
 	},
 	"cnapi": {
 		"url": "http://{{{auto.ADMIN_IP}}}",
-                "smt_enabled_default": {{{SMT_ENABLED_DEFAULT}}}{{^SMT_ENABLED_DEFAULT}}false{{/SMT_ENABLED_DEFAULT}}
+                "smt_enabled_default": {{{SMT_ENABLED_DEFAULT}}}{{^SMT_ENABLED_DEFAULT}}true{{/SMT_ENABLED_DEFAULT}}
 	},
 	"imgapi": {
 		"url": "http://{{{IMGAPI_SERVICE}}}"
